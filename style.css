@@ -1,0 +1,98 @@
+body{
+    background-image: url(CHALLENGEbackground.jpg)
+}
+
+body{
+    margin-top: 2%;
+    min-width: 300px;
+    background-repeat: no-repeat;
+    background-size:cover
+}
+
+.contenitore{
+    box-sizing: border-box;
+    height: 30%;
+    width: 63%;
+    background: rgba(0, 0 , 0, 0.50);
+    margin: auto;
+    padding: 3% 7% 5% 7%;
+}
+
+/*INTRODUZIONE*/
+
+header>h2{
+    color: #00DD00;
+    font-family: 'Poppins', sans-serif;
+    min-width: 240px;
+    margin: auto;
+    text-align: center;
+}
+
+header>img{
+    display: block;
+    width: 27%;
+    height: 27%;
+    min-width: 133px;
+    margin: auto;
+}
+
+nav{
+    background-color: #00DD00;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    width: 100%;
+    min-width: 255px;
+}
+
+nav>button{
+    font-size: 10px;
+}
+
+/*CORPO*/
+
+main{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    min-width: 255px;
+}
+
+main>input{
+    margin-top: 4%;
+}
+
+span.monopattino{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+span, span.freccia{
+    font-size: 13px;
+    font-weight:400;
+}
+
+.freccia:before{
+    content: ' \21A6';
+    padding-right: 4px;
+}
+
+div.square-charge-1{
+    background: #FFB453;
+    width: 35%;
+    height: 24px;
+    border-radius: 5px;
+}
+
+div.square-charge-2{
+    background: #00DD00;
+    width: 60%;
+    height: 24px;
+    border-radius: 5px;
+}
+
+div.square-charge-3{
+    background: #BE4141;
+    width: 15%;
+    height: 24px;
+    border-radius: 5px;
+}
